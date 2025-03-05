@@ -1,0 +1,133 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2025-01-13T06:08:22.082Z",
+        "before": [
+          {
+            "result": {
+              "duration": 852400,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario()"
+            }
+          }
+        ],
+        "line": 6,
+        "name": "Successful Registration",
+        "description": "",
+        "id": "registration-functionality;successful-registration",
+        "after": [
+          {
+            "result": {
+              "duration": 7900,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hooks.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 7,
+            "name": "I enter my valid Details",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 8,
+            "name": "I click on the Create Account button",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 9,
+            "name": "I should be successfully logged in to my Homepage",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2025-01-13T06:08:22.145Z",
+        "before": [
+          {
+            "result": {
+              "duration": 12000,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "UnSuccessful Registration",
+        "description": "",
+        "id": "registration-functionality;unsuccessful-registration",
+        "after": [
+          {
+            "result": {
+              "duration": 8500,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hooks.afterScenario()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 12,
+            "name": "I enter my invalid Details",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 13,
+            "name": "I click on the Create Account button",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 14,
+            "name": "I should not be successfully logged in to my Homepage",
+            "match": {},
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Registration Functionality",
+    "description": "  As a New user,\n  I want to Create a account to the Tesco UK website,\n  So that I can Login with valid credentials",
+    "id": "registration-functionality",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/Registration.feature",
+    "tags": []
+  }
+]
