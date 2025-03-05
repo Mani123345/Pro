@@ -6,8 +6,7 @@ import org.stepDefinition.JVMReports;
 
 import io.cucumber.junit.Cucumber;
 import io.cucumber.junit.CucumberOptions;
-//modify
-//modified
+//mani modified
 @RunWith(Cucumber.class)
 @CucumberOptions(features = "src\\test\\resources\\Features\\Registration.feature",
 glue = "org.stepDefinition",
